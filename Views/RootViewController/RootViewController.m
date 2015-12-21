@@ -19,9 +19,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    arrPageTitles = @[@"Hii I am Donald",@"Hii I am Mickey",@"Hii I am Tweety"];
-    
-    arrPageImages =@[@"donald.jpg",@"mickey_mouse-1097.jpg",@"tweety-bird.jpg"];
+    arrPageTitles = @[@"This is The App Guruz",@"This is Table Tennis 3D",@"This is Hide Secrets"];
+    arrPageImages =@[@"1.jpg",@"2.jpg",@"3.jpg"];
     
     // Create page view controller
     self.PageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageViewController"];
